@@ -14,3 +14,9 @@ temp_interactive_push.bat
 .gitignore
 config.bat
 node_modules
+
+# Never commit secrets or editor auto-run tasks
+.env
+.env.local
+.env.*.local
+.vscode/
